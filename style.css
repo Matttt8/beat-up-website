@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 
 html{
@@ -6,7 +5,10 @@ html{
 }
 
 body{
-    background-color: rgb(25, 20, 20);
+    /*background-color: rgb(25, 20, 23);*/
+    background: linear-gradient(black, #713abe);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1{
@@ -14,7 +16,7 @@ h1{
     font-size: 55px;
     position: absolute;
     font-weight: lighter;
-    margin-left: 1%;
+    margin-left: 3%;
     margin-top: 1.5%;
 }
 hr{
@@ -27,7 +29,7 @@ hr{
     text-align:right;
     color: white;
     font-weight: lighter;
-    margin-right:20%;
+    margin-right:2%;
     margin-top: 1.5%;
 
 }
@@ -38,6 +40,30 @@ hr{
     font-weight: lighter;
     margin-right:2%;
     margin-top: 1.5%;
+
+}
+
+
+.ciao{
+    font-size: 36px;
+    margin-top: 5%;
+    margin-left: 3%;
+    
+
+}
+
+.si{
+    font-size: 27px;
+    margin-top: 14%;
+    margin-left: 3%;
+    position: fixed;
+    color: white;
+    font-weight: lighter;
+}
+img{
+    margin-left: 50%;
+    margin-top: 5%;
+    width:30%;
 
 
 }
